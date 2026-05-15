@@ -1,0 +1,145 @@
+*/=======================================================================================/*
+============================= Note/Aturan2 =================================================
+*/=======================================================================================/*
+
+aturan terminal, terminal yg akan digunakan adalah "Git Bash" (disarankan)
+    pakai cmd bawaan/cmd dari Vscode boleh aja, asalkan paham cara pengoperasian nya
+
+aturan push ke github:
+    *** cek terlebih dahulu apakah kamu berada di branch master atau main, bisa dilihat di alur commandprompt kamu  ***
+        contoh : HanzzSama@WIN-JC49UA9ORGG MINGW64 /d/laragon/www/TurningCode (main)
+        jika branch kamu adalah "main" maka ubah ke branch "master" terlebih dahulu.
+
+    *** branch master digunakan sebagai wadah sementara/wadah fase pengembangan project ***
+    *** branch main digunakan sebagai wadah final/wadah fase publikasi project ***
+
+
+    ubah branch main ke branch master
+        # git branch -M master
+
+    ubah branch master ke branch main
+        # git branch -M main
+
+    alur push ke repo master
+        # git add .
+        # git commit -m "deskripsi perubahan/progres version"
+        # git push -u origin master
+
+    alur push ke repo main
+        # git add .
+        # git commit -m "deskripsi perubahan/progres version"
+        # git push -u origin main
+
+aturan tanda comment :
+    # = comment perubahan/permasalahan normal/standard
+    #! = comment permasalahan darurat
+    #0 = comment permasalahan belum selesai/proses
+    #1 = comment permasalahan selesai/final
+
+aturan line "jangan pakai button space, pakailah button tab"
+
+
+
+*/=======================================================================================/*
+============================= Log catatan =================================================
+*/=======================================================================================/*
+
+
+***========================== Log Perubahan ==========***
+
+    Rumusan deskripsi "tanda comment" - "deskripsi perubahan" - "File Perubahan" - "nama operator"
+
+    # Menambahkan Controller User "D:\laragon\www\TurningCode\app\Http\Controllers\ControllerUser" (Hanzz)
+    # menambahkan MVC Data "D:\laragon\www\TurningCode\" (Hanzz)
+    # menambahkan file view "index" (Hanzz)
+    # menambahkan folder "components" (Hanzz)
+    # menambahkan folder "auth" (Hanzz)
+    # menambahkan file view "adminPage" (Hanzz)
+    # menambahkan file view "aside" (Hanzz)
+    # menambahkan file view "card" (Hanzz)
+    # menambahkan file view "header" (Hanzz)
+    # menambahkan file view "history" (Hanzz)
+    # menambahkan file view "lastMaterial" (Hanzz)
+    # menambahkan file view "nav" (Hanzz)
+    # menambahkan file view "other" (Hanzz)
+    # menambahkan file view "progres" (Hanzz)
+    # menambahkan file view "showMaterial" (Hanzz)
+    # menambahkan file view "tools" (Hanzz)
+    # menambahkan file view "login" (Hanzz)
+    # menambahkan file view "register" (Hanzz)
+    # menambahkan file controller "D:\laragon\www\TurningCode\app\Http\Controllers\AuthController" (Hanzz)
+    # buat sistem Auth "login/register" (Hanzz)
+    # perbarui web.php (Hanzz)
+    # menambahkan file scr js "aside.js" (Hanzz)
+    # menambahkan file scr js "loads.js" (Hanzz)
+    # menambahkan file scr js "showPass.js" (Hanzz)
+    # menambahkan file scr css "srtyle.css" (Hanzz)
+    # menambahkan file assets "default-user.jpg" (Hanzz)
+    # menambahkan file assets "img001.jpg" (Hanzz)
+    # menambahkan file assets "img002.jpg" (Hanzz)
+    # menambahkan file assets "img002.png" (Hanzz)
+    # menambahkan file controller "MainMateriController" (Hanzz)
+    # menambahkan file model "MainMateri" (Hanzz)
+    # menambahkan file policy "MainMateriPolicy" (Hanzz)
+    # menambahkan file factory "MainMateriFactory" (Hanzz)
+    # menambahkan file migration "2026_03_12_021943_create_main_materis_table" (Hanzz)
+    # menambahkan file controller "MateriController" (Hanzz)
+    # menambahkan file model "Materi" (Hanzz)
+    # menambahkan file policy "MateriPolicy" (Hanzz)
+    # menambahkan file factory "materiFactory" (Hanzz)
+    # menambahkan file migration "2026_03_12_023049_create_materis_table" (Hanzz)
+    # menambahkan file controller "SubMateriController" (Hanzz)
+    # menambahkan file model "SubMateri" (Hanzz)
+    # menambahkan file policy "SubMateriPolicy" (Hanzz)
+    # menambahkan file factory "SubMateriFactory" (Hanzz)
+    # menambahkan file migration "2026_03_12_073306_create_sub_materis_table" (Hanzz)
+    # menambahkan file controller "AdminCodeController" (Hanzz)
+    # menambahkan file model "AdminCode" (Hanzz)
+    # menambahkan file policy "AdminCodePolicy" (Hanzz)
+    # menambahkan file factory "AdminCodeFactory" (Hanzz)
+    # menambahkan file migration "2026_03_13_012407_create_admin_codes_table" (Hanzz)
+    # menambahkan file middleware "DesktopOnly" (Hanzz)
+    # menambahkan file middleware "RoleMiddleware" (Hanzz)
+    # menambahkan file migration "2026_03_09_041502_create_data_table" (Hanzz)
+    # menambahkan file css "adminPage.css" (Hanzz)
+    # menambahkan file js "adminWarn.js" (Hanzz)
+    # menambahkan file js "materi.js" (Hanzz)
+    # menambahkan file js "navPage.js" (Hanzz)
+    # menambahkan folder "components\adminPage" (Hanzz)
+    # menambahkan file "header" (Hanzz)
+    # menambahkan file "leaderboard" (Hanzz)
+    # menambahkan file "account" (Hanzz)
+    # menambahkan file "showAllMateri" (Hanzz)
+    # menambahkan file "showAllSubMateri" (Hanzz)
+    # menambahkan file
+    # -
+    # -
+    # -
+    # -
+    # -
+    # -
+    # -
+
+
+***========================== Log Bug ==========***
+
+    Rumusan deskripsi "tanda comment" - "deskripsi permasalahan" - "File permasalahan" - "nama operator"
+
+    # Nggk bisa masuk halaman login "D:\laragon\www\TurningCode\resources\views\login.blade.php" (Hanzz)
+    # blm bisa upload gambar "D:\laragon\www\TurningCode\app\Http\Controllers\AuthController" (Hanzz)
+    # UI kurang rapi "D:\laragon\www\TurningCode\resources\views" (Hanzz)
+    # alert register belum bisa muncul "D:\laragon\www\TurningCode\app\Http\Controllers\AuthContreoller" (Hanzz)
+    # halaman admin blm jadi (Hanzz)
+    # -
+    # -
+    # -
+    # -
+    # -
+    # -
+    # -
+    # -
+    # -
+    # -
+    # -
+    # -
+    # -
